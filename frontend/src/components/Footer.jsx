@@ -15,9 +15,8 @@ export default function Footer() {
     <footer className="bg-neutral-950 text-neutral-300 mt-24">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-20 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-12">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-2 mb-6">
-            <span className="w-9 h-9 rounded-full bg-gold flex items-center justify-center font-script text-white text-xl italic">r</span>
-            <span className="font-display text-2xl text-white italic">rang <span className="not-italic font-normal text-gold">mohor</span></span>
+          <div className="mb-6">
+            <img src="/rang-mohor-logo-transparent.png" alt="Rang Mohor" className="h-14 w-auto object-contain" />
           </div>
           <p className="text-neutral-400 text-sm leading-relaxed max-w-sm mb-6">
             Editorial wedding return gifts, thoughtfully composed. Each keepsake is made in small batches by artisans across India.

@@ -44,11 +44,8 @@ export default function Header() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-4 flex items-center gap-6">
           <button className="lg:hidden" onClick={() => setOpen(true)} data-testid="mobile-menu-btn"><Menu size={22} /></button>
 
-          <Link to="/" className="flex items-center gap-2 group" data-testid="logo-link">
-            <span className="w-9 h-9 rounded-full bg-gold flex items-center justify-center shadow-sm">
-              <span className="font-script text-white text-xl leading-none italic">r</span>
-            </span>
-            <span className="font-display text-xl md:text-2xl tracking-tight italic">rang <span className="not-italic font-normal text-gold">mohor</span></span>
+          <Link to="/" className="flex items-center group" data-testid="logo-link">
+            <img src="/rang-mohor-logo-pink.png" alt="Rang Mohor" className="h-10 md:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105 dark:brightness-0 dark:invert" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8 ml-8">
@@ -113,7 +110,7 @@ export default function Header() {
             <motion.aside initial={{ x: "-100%" }} animate={{ x: 0 }} exit={{ x: "-100%" }} transition={{ type: "tween", duration: 0.35 }}
               onClick={(e) => e.stopPropagation()} className="w-[82%] max-w-sm h-full bg-ivory dark:bg-neutral-950 p-8 flex flex-col">
               <div className="flex items-center justify-between mb-10">
-                <span className="font-display text-2xl italic">rang <span className="not-italic font-normal text-gold">mohor</span></span>
+                <img src="/rang-mohor-logo-pink.png" alt="Rang Mohor" className="h-10 w-auto object-contain dark:brightness-0 dark:invert" />
                 <button onClick={() => setOpen(false)} data-testid="mobile-menu-close"><X /></button>
               </div>
               <nav className="flex flex-col gap-4">
