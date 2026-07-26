@@ -45,7 +45,8 @@ export default function Header() {
           <button className="lg:hidden" onClick={() => setOpen(true)} data-testid="mobile-menu-btn"><Menu size={22} /></button>
 
           <Link to="/" className="flex items-center group" data-testid="logo-link">
-            <img src="/rang-mohor-logo-pink.png" alt="Rang Mohor" className="h-10 md:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-105 dark:brightness-0 dark:invert" />
+            <img src="/rang-mohor-logo.png" alt="Rang Mohor" className="h-11 md:h-14 w-auto object-contain rounded-sm shadow-sm transition-transform duration-500 group-hover:scale-105 block dark:hidden" />
+            <img src="/rang-mohor-logo-transparent.png" alt="Rang Mohor" className="h-11 md:h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105 hidden dark:block" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8 ml-8">
