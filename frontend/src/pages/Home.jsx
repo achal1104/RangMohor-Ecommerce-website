@@ -137,7 +137,7 @@ export default function Home() {
         <blockquote className="font-display text-2xl md:text-4xl leading-snug tracking-tight italic">
           “Every guest at our wedding held their Rang Mohor box a little longer than usual. It wasn't a favor — it was a moment.”
         </blockquote>
-        <p className="mt-8 overline text-neutral-500">— Ananya & Rohan, Udaipur 2025</p>
+        <p className="mt-8 overline text-neutral-500">— A Rang Mohor Bride</p>
       </section>
     </div>
   );
