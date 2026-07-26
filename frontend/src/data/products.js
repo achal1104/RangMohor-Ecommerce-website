@@ -1,0 +1,62 @@
+export const categories = [
+  { slug: "dry-fruit-gift-boxes", name: "Dry Fruit Gift Boxes", tagline: "Nutty indulgence, beautifully boxed", image: "https://images.pexels.com/photos/27291944/pexels-photo-27291944.jpeg" },
+  { slug: "customized-hampers", name: "Customized Hampers", tagline: "Bespoke tokens for the ones who matter", image: "https://images.pexels.com/photos/28769885/pexels-photo-28769885.jpeg" },
+  { slug: "brass-silver-gifts", name: "Brass & Silver Gifts", tagline: "Heirloom metals with modern craft", image: "https://images.pexels.com/photos/15755947/pexels-photo-15755947.jpeg" },
+  { slug: "pooja-return-gifts", name: "Pooja Return Gifts", tagline: "Sacred keepsakes for auspicious days", image: "https://images.pexels.com/photos/14855916/pexels-photo-14855916.jpeg" },
+  { slug: "home-decor", name: "Home Decor", tagline: "Objets d'art for the modern home", image: "https://images.unsplash.com/photo-1692616461826-4bf6d141fe17" },
+  { slug: "scented-candles", name: "Scented Candles", tagline: "Whispered fragrance, quiet luxury", image: "https://images.pexels.com/photos/35505878/pexels-photo-35505878.jpeg" },
+  { slug: "potli-bags", name: "Potli Bags", tagline: "Silken pouches, timeless charm", image: "https://images.pexels.com/photos/21897307/pexels-photo-21897307.jpeg" },
+  { slug: "decorative-trays", name: "Decorative Trays", tagline: "Sculpted surfaces for gracious hosting", image: "https://images.pexels.com/photos/16411135/pexels-photo-16411135.jpeg" },
+  { slug: "eco-friendly-gifts", name: "Eco-Friendly Gifts", tagline: "Conscious luxury, gentle on Earth", image: "https://images.pexels.com/photos/19527929/pexels-photo-19527929.jpeg" },
+  { slug: "premium-gift-sets", name: "Premium Gift Sets", tagline: "Editorial curations, ready to gift", image: "https://images.pexels.com/photos/34144841/pexels-photo-34144841.jpeg" },
+];
+
+const imgs = {
+  royal: "https://images.pexels.com/photos/20699855/pexels-photo-20699855.jpeg",
+  ivory: "https://images.pexels.com/photos/15548880/pexels-photo-15548880.jpeg",
+  citrus: "https://images.pexels.com/photos/35532443/pexels-photo-35532443.jpeg",
+  nuts: "https://images.unsplash.com/photo-1633168850968-76be3bb0a2fc",
+  thali: "https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg",
+  elephant: "https://images.unsplash.com/photo-1692616461826-4bf6d141fe17",
+  perfume: "https://images.pexels.com/photos/33538425/pexels-photo-33538425.png",
+  wrap: "https://images.unsplash.com/photo-1638560927109-062a7e7bdf03",
+  platter: "https://images.unsplash.com/photo-1767824122858-a2e0494b6077",
+  rose: "https://images.unsplash.com/photo-1767986012135-25b7c94201c3",
+  pearl: "https://images.pexels.com/photos/16962508/pexels-photo-16962508.jpeg",
+  vase: "https://images.pexels.com/photos/27554467/pexels-photo-27554467.jpeg",
+  hamper: "https://images.pexels.com/photos/28769885/pexels-photo-28769885.jpeg",
+  potli: "https://images.pexels.com/photos/21897307/pexels-photo-21897307.jpeg",
+  tray: "https://images.pexels.com/photos/16411135/pexels-photo-16411135.jpeg",
+  candle: "https://images.pexels.com/photos/35505878/pexels-photo-35505878.jpeg",
+  eco: "https://images.pexels.com/photos/19527929/pexels-photo-19527929.jpeg",
+  set: "https://images.pexels.com/photos/34144841/pexels-photo-34144841.jpeg",
+  dryfruit: "https://images.pexels.com/photos/27291944/pexels-photo-27291944.jpeg",
+  brass: "https://images.pexels.com/photos/15755947/pexels-photo-15755947.jpeg",
+  pooja: "https://images.pexels.com/photos/14855916/pexels-photo-14855916.jpeg",
+};
+
+export const products = [
+  { id: "p01", name: "Royal Champagne Hamper", category: "customized-hampers", price: 4899, mrp: 6499, discount: 25, rating: 4.9, reviews: 128, badge: "Bestseller", image: imgs.royal, gallery: [imgs.royal, imgs.hamper, imgs.set], short: "Champagne-toned hamper with artisanal chocolates and heirloom trinkets.", description: "An editorial curation wrapped in champagne satin. Includes artisan pralines, hand-poured mini candle, brass keepsake, and personalised note card. Perfect for the front row of your guest list." },
+  { id: "p02", name: "Ivory Floral Gift Box", category: "customized-hampers", price: 2299, mrp: 2999, discount: 23, rating: 4.8, reviews: 96, badge: "New", image: imgs.ivory, gallery: [imgs.ivory, imgs.rose, imgs.pearl], short: "Pressed florals and ivory linen — quiet, romantic, unforgettable.", description: "Layered in ivory ribbon and pressed jasmine, this box is our love letter to minimalism. A moment of stillness in every unboxing." },
+  { id: "p03", name: "Citrus Sage Candle", category: "scented-candles", price: 1299, mrp: 1699, discount: 24, rating: 4.7, reviews: 214, image: imgs.citrus, gallery: [imgs.citrus, imgs.candle], short: "Hand-poured soy wax with bergamot, sage, and white oak.", description: "Slow-burning 60hr candle in a matte ceramic vessel. Top notes of bergamot, mid of sage, base of aged oak. Made in small batches." },
+  { id: "p04", name: "Premium Nuts Selection", category: "dry-fruit-gift-boxes", price: 1899, mrp: 2399, discount: 21, rating: 4.9, reviews: 302, badge: "Bestseller", image: imgs.nuts, gallery: [imgs.nuts, imgs.dryfruit], short: "Six-cell walnut box with California almonds, Persian pistachios & more.", description: "A tasting flight of dry fruits sourced from four continents. Each cell hand-filled, sealed with a wax stamp of your monogram (on request)." },
+  { id: "p05", name: "Silver Pooja Thali Set", category: "pooja-return-gifts", price: 3499, mrp: 4599, discount: 24, rating: 4.8, reviews: 87, badge: "Handcrafted", image: imgs.thali, gallery: [imgs.thali, imgs.pooja, imgs.brass], short: "925-silver plated thali with diya, kumkum bowl, and bell.", description: "Cast in Jaipur, finished by hand. A traditional set reimagined with clean silhouettes — ready for the altar and the mantelpiece." },
+  { id: "p06", name: "Gold Finish Elephant", category: "home-decor", price: 1599, mrp: 2199, discount: 27, rating: 4.6, reviews: 61, image: imgs.elephant, gallery: [imgs.elephant, imgs.brass], short: "Brass elephant with 24k gold wash — for prosperity, poise.", description: "Sculpted brass with a soft gold patina. Weighted base, felt-lined feet. A talisman for the entrance console." },
+  { id: "p07", name: "Signature Perfume Set", category: "premium-gift-sets", price: 5299, mrp: 6899, discount: 23, rating: 4.9, reviews: 145, badge: "Editor's Pick", image: imgs.perfume, gallery: [imgs.perfume, imgs.set], short: "Trio of perfumes: Amber Bloom, Champagne Rose, Silk Oud.", description: "Three miniatures composed by a French nose, presented in a linen-lined case. Notes of amber, damask rose, and warm oud." },
+  { id: "p08", name: "Kraft Wrapped Keepsake", category: "eco-friendly-gifts", price: 899, mrp: 1199, discount: 25, rating: 4.5, reviews: 44, image: imgs.wrap, gallery: [imgs.wrap, imgs.eco], short: "Recycled kraft, jute twine, dried lavender — pure and honest.", description: "For guests who believe less is more. Each box contains a seed-paper card, organic soap, and hand-dipped chocolate." },
+  { id: "p09", name: "Ornate Dessert Platter", category: "decorative-trays", price: 2799, mrp: 3599, discount: 22, rating: 4.7, reviews: 73, image: imgs.platter, gallery: [imgs.platter, imgs.tray], short: "Marble and brass platter — sculptural, sturdy, statement.", description: "Italian marble with hand-lathed brass rim. Serves canapés, keys, or your morning ritual with equal poise." },
+  { id: "p10", name: "Rose Glass Dome", category: "home-decor", price: 1999, mrp: 2699, discount: 26, rating: 4.8, reviews: 89, badge: "Limited", image: imgs.rose, gallery: [imgs.rose, imgs.ivory], short: "Preserved rose beneath hand-blown glass — a whisper of romance.", description: "A single preserved rose, suspended in hand-blown crystal. Lasts three years without water. Made in a Prague atelier." },
+  { id: "p11", name: "Chic Pearl Glass Box", category: "customized-hampers", price: 3299, mrp: 4299, discount: 23, rating: 4.7, reviews: 52, image: imgs.pearl, gallery: [imgs.pearl, imgs.ivory], short: "Iridescent pearl-glass box with silk lining and monogram plate.", description: "Refillable heirloom box in pearl-finish glass. Includes silk pouch, a brass monogram plate, and blank vellum card." },
+  { id: "p12", name: "Ceramic Vase Trio", category: "home-decor", price: 2499, mrp: 3299, discount: 24, rating: 4.6, reviews: 66, image: imgs.vase, gallery: [imgs.vase, imgs.tray], short: "Three matte ceramic vases in ivory, blush, and champagne.", description: "Thrown by hand on a Portuguese wheel. Unglazed matte finish. Sold as a trio; also fits single-stem florals." },
+  { id: "p13", name: "Woven Potli — Blush", category: "potli-bags", price: 649, mrp: 899, discount: 28, rating: 4.6, reviews: 210, image: imgs.potli, gallery: [imgs.potli], short: "Raw silk potli with hand-embroidered gota, blush pink.", description: "Traditional drawstring potli hand-embroidered by karigars in Lucknow. Room for chocolates, coins, or a heartfelt note." },
+  { id: "p14", name: "Verdant Tea Ceremony", category: "premium-gift-sets", price: 3899, mrp: 4999, discount: 22, rating: 4.8, reviews: 41, image: imgs.set, gallery: [imgs.set, imgs.tray], short: "Loose-leaf tea, brass infuser, ceramic cup and spoon.", description: "A quiet ritual, boxed. Single-origin Darjeeling, brass infuser, hand-thrown ceramic cup. A slower kind of celebration." },
+  { id: "p15", name: "Golden Almond Reserve", category: "dry-fruit-gift-boxes", price: 1499, mrp: 1999, discount: 25, rating: 4.7, reviews: 178, image: imgs.dryfruit, gallery: [imgs.dryfruit, imgs.nuts], short: "Reserve-grade almonds in a lacquered gold box.", description: "A single-varietal indulgence — reserve-grade almonds only. Presented in a black lacquered box with gold interior." },
+  { id: "p16", name: "Brass Diya Duo", category: "brass-silver-gifts", price: 1199, mrp: 1599, discount: 25, rating: 4.9, reviews: 132, badge: "Handcrafted", image: imgs.brass, gallery: [imgs.brass, imgs.pooja], short: "A pair of hand-forged brass diyas, patina finish.", description: "Cast in a foundry that has served temples for 80 years. Each diya is signed on the base by the artisan." },
+  { id: "p17", name: "Wax-Sealed Pooja Kit", category: "pooja-return-gifts", price: 899, mrp: 1199, discount: 25, rating: 4.7, reviews: 98, image: imgs.pooja, gallery: [imgs.pooja, imgs.thali], short: "Kumkum, chandan, akshat, agarbatti — wax-sealed in ivory.", description: "Ivory-linen roll containing every essential for a home pooja. Sealed with wax and blessed at the source temple." },
+  { id: "p18", name: "Amber Grove Candle", category: "scented-candles", price: 1499, mrp: 1899, discount: 21, rating: 4.8, reviews: 156, image: imgs.candle, gallery: [imgs.candle, imgs.citrus], short: "Amber, cedar, tobacco leaf — soft, smoky, sophisticated.", description: "A grown-up candle with an old-library soul. 65-hour burn, cotton wick, ceramic vessel refillable at any of our studios." },
+  { id: "p19", name: "Seed Paper Keepsake", category: "eco-friendly-gifts", price: 549, mrp: 749, discount: 27, rating: 4.4, reviews: 82, image: imgs.eco, gallery: [imgs.eco, imgs.wrap], short: "Plantable card, hemp twine, hand-pressed. Grow the memory.", description: "A seed-paper card that, when planted, becomes basil. Wrapped in hemp with a hand-pressed monogram." },
+  { id: "p20", name: "Marbled Serving Tray", category: "decorative-trays", price: 2199, mrp: 2899, discount: 24, rating: 4.7, reviews: 71, image: imgs.tray, gallery: [imgs.tray, imgs.platter], short: "Marbled tray with polished brass handles.", description: "A statement tray for coffee-table rituals. Cast marble with polished brass handles. No two are alike." },
+];
+
+export const findProduct = (id) => products.find((p) => p.id === id);
+export const byCategory = (slug) => products.filter((p) => p.category === slug);
