@@ -1,0 +1,217 @@
+{
+  "theme_overview": {
+    "name": "Luxury Wedding Return Gifts E-Commerce",
+    "description": "A modern, premium, fully responsive e-commerce website for a brand that sells Wedding Return Gifts. The theme is elegant, luxurious, and minimal. Emphasizes visual storytelling with generous negative space, high-contrast typography, and smooth micro-interactions. The aesthetic is heavily inspired by high-end editorial and 'Godly' level ecommerce platforms.",
+    "emotional_archetype": "LUXURY & EDITORIAL (Premium, Depth, Elegance)",
+    "color_palette_context": "Ivory, White, Gold, Beige, Soft Pink, and Champagne. Use these colors to establish a high-end, exclusive feel without overwhelming the products."
+  },
+  "typography": {
+    "strategy": "The 'Old Money Tech' variant. A luxury serif for headings mixed with a sterile, crisp geometric sans for body.",
+    "fonts": {
+      "headings": {
+        "family": "'Playfair Display', serif",
+        "fallback": "'Cormorant Garamond', serif",
+        "weights": ["400", "500", "600"],
+        "rules": "Use tracking-tight for H1 and H2. Never use generic sans-serif for headings."
+      },
+      "body": {
+        "family": "'Outfit', sans-serif",
+        "fallback": "'Manrope', sans-serif",
+        "weights": ["300", "400", "500"],
+        "rules": "Clean, highly readable, generous line height (leading-relaxed)."
+      },
+      "labels": {
+        "rules": "Uppercase, tracking-widest (e.g., tracking-[0.2em]), text-xs or text-sm for overlines and tags."
+      }
+    },
+    "hierarchy": {
+      "H1": "text-4xl sm:text-5xl lg:text-6xl font-serif tracking-tight",
+      "H2": "text-2xl sm:text-3xl lg:text-4xl font-serif tracking-tight",
+      "H3": "text-xl sm:text-2xl font-serif",
+      "Body": "text-base text-slate-600 dark:text-slate-300",
+      "Caption": "text-xs tracking-widest uppercase text-slate-500"
+    }
+  },
+  "colors": {
+    "light_mode": {
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "primary": "#D4AF37",
+      "primary_hover": "#B5952F",
+      "text_main": "#1C1C1C",
+      "text_muted": "#64748B",
+      "accent_pink": "#FDF2F4",
+      "accent_champagne": "#F7E7CE",
+      "border": "#E5E7EB"
+    },
+    "dark_mode": {
+      "background": "#0F0F0F",
+      "surface": "#1A1A1A",
+      "primary": "#D4AF37",
+      "primary_hover": "#E6C965",
+      "text_main": "#F8F8F8",
+      "text_muted": "#A1A1AA",
+      "accent_pink": "#2A1A1C",
+      "accent_champagne": "#2C261A",
+      "border": "#27272A"
+    },
+    "rules": [
+      "Limit the use of primary Gold (#D4AF37) to CTAs, badges, and active states.",
+      "Ensure contrast ratios are met (minimum 4.5:1 for small text).",
+      "Never use pure black or pure white without a subtle tint. Light backgrounds should feel like Ivory or warm paper.",
+      "Dark mode backgrounds should be a rich charcoal, not absolute #000."
+    ]
+  },
+  "visual_enhancers": {
+    "glassmorphism": "Use backdrop-blur-xl bg-white/70 (light) or bg-black/60 (dark) for the sticky header and overlays. ALWAYS include a 1px subtle border to define the edge.",
+    "borders": "Use 1px delicate borders (border-stone-200 or border-gold/20). Avoid thick, heavy borders.",
+    "shadows": {
+      "soft": "shadow-[0_8px_32px_rgba(0,0,0,0.04)] for product cards on hover",
+      "ambient": "shadow-xl for modals and dropdowns"
+    },
+    "radius": "Use rounded-none or rounded-sm (max 4px). High-end luxury avoids overly rounded, bubbly corners."
+  },
+  "layouts_and_grids": {
+    "spacing": "Generous Spacing Philosophy. Use p-8, p-12, p-16, py-24. Containers must breathe.",
+    "product_grid": "Wide gaps (gap-8 md:gap-12). Images must have a consistent aspect ratio (aspect-[4/5] recommended) with object-cover.",
+    "bento_grid": "For categories, use an asymmetrical Tetris grid (grid-cols-1 md:grid-cols-12). Some items span 8 cols, some span 4 cols to create visual tension and hierarchy.",
+    "alignment": "Optical alignment over mathematical. Do not center-align body text paragraphs."
+  },
+  "components": {
+    "Header": "Sticky to top, z-50. Glassmorphism effect. Logo centered or left. Icons (Search, User, Wishlist, Cart) on the right. MUST be fully visible on desktop.",
+    "Hero": "Oversized, editorial feel. Offset headlines. High-quality image background with a delicate gradient overlay (bg-gradient-to-t from-black/60 via-black/20 to-transparent) to ensure text contrast.",
+    "ProductCard": "Minimalist. Image takes 80% of height. On hover, image scales slowly (1.05x, 700ms). 'Add to Cart' button slides up from bottom. Discount badges in soft pink or gold.",
+    "Buttons": "Sharp or slightly rounded corners (rounded-sm). Primary button: solid Gold background. Secondary: transparent with 1px border. Always define explicit hover text and bg colors.",
+    "ProductDetail": "Split layout. Sticky image gallery on the left (scrollable). Product info, accordion descriptions, and CTA on the right.",
+    "Cart": "Sleek sliding Sheet (Drawer) for quick cart. Full page for detailed summary.",
+    "Forms": "Underlined inputs instead of full bordered boxes, or extremely subtle borders, matching luxury aesthetics."
+  },
+  "motion": {
+    "library": "Framer Motion",
+    "page_transitions": "Subtle fade-in and slight Y-axis upward drift (y: 20 -> 0) on page load.",
+    "scroll_animations": "Staggered fade-ins for product grid items (delay 0.1s per index).",
+    "micro_interactions": "Smooth 500ms-700ms easing for hover states on images. Buttons have a slight shrink/grow effect on active state."
+  },
+  "media_and_images": {
+    "rules": "High-resolution. Unsplash/Pexels images mapped to product types. Editorial styling.",
+    "hero_banner": [
+      {
+        "url": "https://images.pexels.com/photos/27818308/pexels-photo-27818308.jpeg",
+        "description": "Luxurious wedding boxes outdoor - Main Hero background"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Customized Hampers",
+        "url": "https://images.pexels.com/photos/28769885/pexels-photo-28769885.jpeg"
+      },
+      {
+        "name": "Scented Candles",
+        "url": "https://images.pexels.com/photos/35505878/pexels-photo-35505878.jpeg"
+      },
+      {
+        "name": "Dry Fruit Gift Boxes",
+        "url": "https://images.pexels.com/photos/27291944/pexels-photo-27291944.jpeg"
+      },
+      {
+        "name": "Brass & Silver Gifts",
+        "url": "https://images.pexels.com/photos/15755947/pexels-photo-15755947.jpeg"
+      },
+      {
+        "name": "Pooja Return Gifts",
+        "url": "https://images.pexels.com/photos/14855916/pexels-photo-14855916.jpeg"
+      },
+      {
+        "name": "Eco-Friendly Gifts",
+        "url": "https://images.pexels.com/photos/19527929/pexels-photo-19527929.jpeg"
+      },
+      {
+        "name": "Potli Bags",
+        "url": "https://images.pexels.com/photos/21897307/pexels-photo-21897307.jpeg"
+      },
+      {
+        "name": "Decorative Trays",
+        "url": "https://images.pexels.com/photos/16411135/pexels-photo-16411135.jpeg"
+      },
+      {
+        "name": "Premium Gift Sets",
+        "url": "https://images.pexels.com/photos/34144841/pexels-photo-34144841.jpeg"
+      },
+      {
+        "name": "Home Decor",
+        "url": "https://images.unsplash.com/photo-1692616461826-4bf6d141fe17"
+      }
+    ],
+    "products": [
+      {
+        "name": "Royal Champagne Hamper",
+        "url": "https://images.pexels.com/photos/20699855/pexels-photo-20699855.jpeg"
+      },
+      {
+        "name": "Ivory Floral Gift Box",
+        "url": "https://images.pexels.com/photos/15548880/pexels-photo-15548880.jpeg"
+      },
+      {
+        "name": "Citrus Sage Candle",
+        "url": "https://images.pexels.com/photos/35532443/pexels-photo-35532443.jpeg"
+      },
+      {
+        "name": "Premium Nuts Selection",
+        "url": "https://images.unsplash.com/photo-1633168850968-76be3bb0a2fc"
+      },
+      {
+        "name": "Silver Pooja Thali Set",
+        "url": "https://images.pexels.com/photos/37116934/pexels-photo-37116934.jpeg"
+      },
+      {
+        "name": "Gold Finish Elephant",
+        "url": "https://images.unsplash.com/photo-1692616461826-4bf6d141fe17"
+      },
+      {
+        "name": "Signature Perfume Set",
+        "url": "https://images.pexels.com/photos/33538425/pexels-photo-33538425.png"
+      },
+      {
+        "name": "Rustic Brown Paper Wrap",
+        "url": "https://images.unsplash.com/photo-1638560927109-062a7e7bdf03"
+      },
+      {
+        "name": "Ornate Dessert Platter",
+        "url": "https://images.unsplash.com/photo-1767824122858-a2e0494b6077"
+      },
+      {
+        "name": "Rose Glass Dome",
+        "url": "https://images.unsplash.com/photo-1767986012135-25b7c94201c3"
+      },
+      {
+        "name": "Chic Pearl Glass Box",
+        "url": "https://images.pexels.com/photos/16962508/pexels-photo-16962508.jpeg"
+      },
+      {
+        "name": "Ceramic Vase Tray",
+        "url": "https://images.pexels.com/photos/27554467/pexels-photo-27554467.jpeg"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: 'npm install framer-motion lucide-react clsx tailwind-merge react-router-dom'.",
+    "Configure Tailwind for Dark Mode (class strategy).",
+    "Import Google Fonts 'Playfair Display' and 'Outfit' in index.css.",
+    "Implement a responsive layout. Mobile should stack cleanly, desktop should utilize CSS grid (Bento box style) for category sections.",
+    "Use Shadcn-like customized components for forms, inputs, and dialogs. Use raw HTML/Tailwind for the artistic Marketing/Hero sections.",
+    "Ensure 'data-testid' is added to all interactive elements (e.g., 'data-testid=\"add-to-cart-btn\"').",
+    "Build the 15+ requested pages utilizing React Router. Reuse layouts for Shop and Category pages.",
+    "Use mock data populated with the provided Unsplash/Pexels image URLs. Do NOT use generic placeholder domains.",
+    "DO NOT use completely transparent backgrounds for the sticky header. Use glassmorphism.",
+    "Toasts: Install and use 'sonner' for notifications (e.g., item added to cart)."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid the 'AI slop' aesthetic by implementing generous spacing, sophisticated typography pairings, and unexpected asymmetrical layouts.",
+    "DO NOT apply universal transition (e.g., 'transition: all'). Always target specific properties like 'transition-transform' or 'transition-colors'.",
+    "DO NOT center-align the app container globally. Left-align dense text blocks.",
+    "Use subtle grain textures or gradients to build depth. Flat design must be compensated with excellent typography and spacing.",
+    "Every interaction needs micro-animations - hover states, transitions, and staggered entrances.",
+    "Prioritize reusing components from src/components/ui.",
+    "If a component needs a fixed height removed, override it using Tailwind's 'h-auto'."
+  ]
+}
