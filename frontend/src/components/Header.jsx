@@ -32,9 +32,6 @@ export default function Header() {
 
   return (
     <>
-      <div className="bg-neutral-900 text-neutral-100 text-[11px] tracking-luxe py-2 text-center overline">
-        Complimentary gifting concierge · Free shipping over ₹2,500 · Made in India
-      </div>
       <motion.header
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
