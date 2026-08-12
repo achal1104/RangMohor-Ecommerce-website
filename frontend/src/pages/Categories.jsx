@@ -7,8 +7,21 @@ export default function Categories() {
     <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-16">
       <div className="mb-14">
         <p className="overline text-gold mb-3">EXPLORE</p>
-        <h1 className="font-display text-4xl md:text-6xl tracking-tight max-w-3xl">Ten worlds, one atelier.</h1>
-        <p className="text-neutral-600 dark:text-neutral-400 mt-4 max-w-xl">Wander through our collections — each a different mood, medium, or memory.</p>
+        <h1 className="font-display text-4xl md:text-6xl tracking-tight max-w-3xl">Celebrate • Gift • Decorate • Cherish</h1>
+        <p className="text-neutral-600 dark:text-neutral-400 mt-4 max-w-xl">A little more meaning in
+every purchase
+
+At RangMohor, we want
+shopping to feel personal.
+
+Whether you are preparing
+for a celebration, refreshing
+your home, searching for
+the perfect gift or simply
+treating yourself.
+
+We hope you find yourself
+something that speaks to you.</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {categories.map((c, i) => (

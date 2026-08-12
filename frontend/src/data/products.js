@@ -4,9 +4,7 @@ export const categories = [
   { slug: "brass-silver-gifts", name: "Brass & Silver Gifts", tagline: "Heirloom metals with modern craft", image: "https://images.pexels.com/photos/15755947/pexels-photo-15755947.jpeg" },
   { slug: "pooja-return-gifts", name: "Pooja Return Gifts", tagline: "Sacred keepsakes for auspicious days", image: "https://images.pexels.com/photos/14855916/pexels-photo-14855916.jpeg" },
   { slug: "home-decor", name: "Home Decor", tagline: "Objets d'art for the modern home", image: "https://images.unsplash.com/photo-1692616461826-4bf6d141fe17" },
-  { slug: "scented-candles", name: "Scented Candles", tagline: "Whispered fragrance, quiet luxury", image: "https://images.pexels.com/photos/35505878/pexels-photo-35505878.jpeg" },
-  { slug: "potli-bags", name: "Potli Bags", tagline: "Silken pouches, timeless charm", image: "https://images.pexels.com/photos/21897307/pexels-photo-21897307.jpeg" },
-  { slug: "decorative-trays", name: "Decorative Trays", tagline: "Sculpted surfaces for gracious hosting", image: "https://images.pexels.com/photos/16411135/pexels-photo-16411135.jpeg" },
+{ slug: "scented-candles", name: "Scented Candles", tagline: "Whispered fragrance, quiet luxury", image: "https://images.unsplash.com/photo-1665124197613-ffbb755f4ac2?w=900&q=80&auto=format&fit=crop" },  { slug: "decorative-trays", name: "Decorative Trays", tagline: "Sculpted surfaces for gracious hosting", image: "https://images.pexels.com/photos/16411135/pexels-photo-16411135.jpeg" },
   { slug: "eco-friendly-gifts", name: "Eco-Friendly Gifts", tagline: "Conscious luxury, gentle on Earth", image: "https://images.pexels.com/photos/19527929/pexels-photo-19527929.jpeg" },
   { slug: "premium-gift-sets", name: "Premium Gift Sets", tagline: "Editorial curations, ready to gift", image: "https://images.pexels.com/photos/34144841/pexels-photo-34144841.jpeg" },
 ];

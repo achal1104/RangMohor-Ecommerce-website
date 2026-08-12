@@ -14,12 +14,12 @@ export default function Contact() {
     <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-20 grid lg:grid-cols-2 gap-16">
       <div>
         <p className="overline text-gold mb-3">GET IN TOUCH</p>
-        <h1 className="font-display text-5xl md:text-6xl tracking-tight mb-6">Let's compose<br/>something together.</h1>
-        <p className="text-neutral-600 dark:text-neutral-400 mb-10 max-w-md">For bespoke commissions, bulk orders (100+ boxes), or a quiet chat about your celebration — write to us.</p>
+        <h1 className="font-display text-5xl md:text-6xl tracking-tight mb-6">Made with tradition. <br/>Chosen with love.</h1>
+        <p className="text-neutral-600 dark:text-neutral-400 mb-10 max-w-md">We believe the best things are not mass produced — they carry a story. Every piece is chosen to bring beauty, character & a personal touch into your life.</p>
         <div className="space-y-4">
           <div className="flex items-center gap-4"><Mail size={18} className="text-gold" /><span>hello@rangmohor.gifts</span></div>
           <div className="flex items-center gap-4"><Phone size={18} className="text-gold" /><span>+91 98100 22 000</span></div>
-          <div className="flex items-start gap-4"><MapPin size={18} className="text-gold mt-1" /><span>Studio 14, Amer Road<br/>Jaipur, Rajasthan 302002</span></div>
+          <div className="flex items-start gap-4"><MapPin size={18} className="text-gold mt-1" /><span>Rangmohor, 61 Shukrawar Peth, Raja Ram Mohan Roy Marg,<br/> Satara -45002</span></div>
         </div>
       </div>
       <form onSubmit={submit} className="space-y-6" data-testid="contact-form">

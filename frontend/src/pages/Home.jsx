@@ -21,11 +21,12 @@ export default function Home() {
             className="overline text-white/90 mb-6">THE 2026 EDITION · WEDDING ATELIER</motion.p>
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.8 }}
             className="font-display text-white text-5xl sm:text-6xl lg:text-7xl leading-[1.02] tracking-tight max-w-4xl">
-            Elegant Wedding<br /><em className="font-serif italic text-[#F7E7CE]">Return Gifts</em> for Every Celebration
+            Discover something truly special<br /><em className="font-serif italic text-[#F7E7CE]">Where every  </em> piece has a story
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }}
             className="text-white/85 text-base md:text-lg font-light mt-6 max-w-xl leading-relaxed">
-            Thoughtfully curated gifts to make your special day unforgettable — sourced, styled, and hand-finished by our atelier.
+           We offer a thoughtfully created collection of handcrafted products from elegant fashion accessories and Indian wedding products to home decor and unique gifts.
+           Every item is designed to make every moment special.
           </motion.p>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}
             className="flex flex-wrap gap-4 mt-10">
